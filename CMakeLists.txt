@@ -26,6 +26,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DesiredSpeed.msg"
   "srv/DesiredSpeed.srv"
   "srv/MotorFree.srv"
+  "srv/StartPositionControl.srv"
   "srv/StartSpeedControl.srv"
 )
 
