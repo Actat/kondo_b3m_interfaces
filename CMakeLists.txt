@@ -23,7 +23,9 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/DesiredPosition.msg"
   "msg/DesiredSpeed.msg"
+  "srv/DesiredPosition.srv"
   "srv/DesiredSpeed.srv"
   "srv/MotorFree.srv"
   "srv/StartPositionControl.srv"
